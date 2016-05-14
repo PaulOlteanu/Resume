@@ -113,6 +113,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 
 \newcommand\printname{
 	\textbf{\LARGE\textls[110]{\textsc{\@name}}}
+    \linebreak \small{github.com/PaulOlteanu}
 }
 
 \makeatother
