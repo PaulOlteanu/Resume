@@ -1,0 +1,113 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Paul Olteanu}
+\address{26 Willowbrook Rd \linebreak Thornhill ON}
+\contacts{(647) 449-6597 \linebreak p.a.olteanu@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Back End Developer}{Beerhopper (Student Startup)}{May 2015 -- March 2016}
+			\begin{itemize}
+				\item Modelled and operated a PostgreSQL database
+				\item Engineered REST API using Node.js and Express to handle cross-platform user activities
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Assistant Referee, Volunteer}{Mayfair West}{March 2015 -- June 2015}
+			\begin{itemize}
+				\item Managed, organized, and supervised tennis tournaments for young children
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Event Organizer, Volunteer}{RBH Inc.}{November 2014, 2015}
+			\begin{itemize}
+				\item Set up, and organized gifts for children
+				\item Coordinated “Santa” visit at christmas party
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Thornhill, ON}{Thornhill Secondary School}{September 2013 -- Present (Grades 9-11)}
+			\begin{itemize}
+				\item 99.1\% AP Grade 11 Computer Science
+				\item 95.0\% Functions and Relations
+				\item 96.3\% Computer technology
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Memory Allocator} (2016). Reimplementation of malloc and free within a 16MB block.  C
+				\item \textbf{CSV Parser} (2015). CSV file parser that reads CSV files into a map.  Elixir
+				\item \textbf{Tuple Library} (2015). Implementation of the Keyword API for a custom type. Published on Hex.  Elixir
+				\item \textbf{Code Rally AI} (2015). Basic AI for IBM's Code Rally challenge.  Java
+				\item \textbf{Static website using Spotify API} (2015). Website where users enter an artist's name and similar ones are suggested.  HTML, CSS + Skeleton Framework, Javascript
+				\item \textbf{Nixie Clock} (2014). Nixie tube clock using an Arduino and an RTC module.  C++
+				\item \textbf{Reddit Bot} (2014). Reddit bot that corrects errors in user's markdown formatting.  Python
+			\end{itemize}
+            Source code and other projects at https://github.com/PaulOlteanu
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Leader of Computer Club (2014 – 2016):} Held weekly meetings, taught python
+				\item \textbf{Certificate of distinction, Canadian Computing Competition (2015, 2016):} Top 25\% of ~5000 participants
+				\item \textbf{Certificate of distinction, Beaver Computing Challenge (2014):} Top 25\% of over 5000 participants
+				\item \textbf{Presenter Youth EdTech Summit:} Taught students to create Android apps using MIT App Inventor
+				\item \textbf{Member of Student IT Team:} Assisted teachers and students weekly after school
+				\item \textbf{Member of Tech Crew:} Set up video and audio equipment for school events
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}
+            Experienced with:
+			\begin{itemize}
+				\item Java; Python; Linux;
+            \end{itemize}
+            Some familiarity with:
+            \begin{itemize}
+                \item Elixir; C; SQL; HTML; CSS; Javascript;
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+\end{document}
