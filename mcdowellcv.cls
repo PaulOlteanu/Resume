@@ -1,7 +1,7 @@
 %% The MIT License (MIT)
 %%
 %% Original work Copyright (c) 2015 Daniil Belyakov
-%% Modified work Copyright (c) 2016 Paul Olteanu
+%% Modified work Copyright (c) 2017 Paul Olteanu
 %%
 %% Permission is hereby granted, free of charge, to any person obtaining a copy
 %% of this software and associated documentation files (the "Software"), to deal
@@ -26,11 +26,15 @@
 \def\mainfontsize{11pt}
 \def\mainfontface{Times New Roman}
 
-\DeclareOption{calibri}{%
+\DeclareOption{calibri}{
   \def\mainfontface{Calibri}
 }
 
 \ProcessOptions\relax
+
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.90}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
 
 % Set font size and paper type
 \LoadClass[letterpaper,\mainfontsize]{article}
@@ -114,6 +118,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 
 \newcommand\printname{
     \textbf{\LARGE\textls[110]{\textsc{\@name}}}
+    \linebreak \small{1A Computer Engineering}
     \linebreak \small{github.com/PaulOlteanu}
 }
 
