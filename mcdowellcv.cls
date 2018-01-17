@@ -118,7 +118,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 
 \newcommand\printname{
     \textbf{\LARGE\textls[110]{\textsc{\@name}}}
-    \linebreak \small{1A Computer Engineering}
+    \linebreak \small{1B Computer Engineering}
     \linebreak \small{University of Waterloo}
 }
 
