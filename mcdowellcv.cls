@@ -116,7 +116,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 \newcommand\name[1]{\def\@name{#1}}
 \name{}
 
-\newcommand\printname{
+\newcommand\printmid{
     \textbf{\LARGE\textls[110]{\textsc{\@name}}}
     \linebreak \small{1B Computer Engineering}
     \linebreak \small{University of Waterloo}
@@ -140,7 +140,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 \newcommand\makeheader{
     \begin{center}
         \begin{tabu} to 1\textwidth { X[l,m] X[2,c,m] X[r,m] }
-            \printaddress & \printname & \printcontacts \\
+            \printaddress & \printmid & \printcontacts \\
         \end{tabu}
     \end{center}
     \vspace*{\afterheaderspace}
