@@ -1,7 +1,7 @@
 ## Prerequisites
 
-1. Have lualatex installed
+1. Have xelatex installed
 
 ## Building
 
-1. `lualatex Resume.tex`
+1. `xelatex resume.tex`
