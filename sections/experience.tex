@@ -1,15 +1,31 @@
 %-------------------------------------------------------------------------------
-%	SECTION TITLE
+% SECTION TITLE
 %-------------------------------------------------------------------------------
 \cvsection{Work Experience}
 
 
 %-------------------------------------------------------------------------------
-%	CONTENT
+% CONTENT
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
 %---------------------------------------------------------
+  \cventry
+    {Software Developer} % Job title
+    {\#paid Inc} % Organization
+    {Toronto, ON} % Location
+    {January - April 2018, May - August 2019} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Architected \textbf{OTP} application to maximize stability and parallelize as much work as possible}
+        \item {Created a persistent priority queue in \textbf{Mnesia}, for use with the \textbf{Honeydew} job runner}
+        \item {Configured \textbf{AWS EC2} instances for staging and production use, and set up \textbf{Squid} proxy servers for request caching}
+        \item {Processed \textbf{30,000+} users/day, generating insights on audience circles allowing for better campaign targeting}
+        \item {Led project updating multi-step form for clients to create campaign proposals, increasing amount of data collected from RFPs}
+        \item {Key Technologies: \textbf{Elixir, Ruby on Rails, AWS EC2 \& IAM, Postgres, Mongo}}
+      \end{cvitems}
+    }
+
   \cventry
     {SDK Developer} % Job title
     {Nymi Inc} % Organization
@@ -18,25 +34,10 @@
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Developed 3-part async SDK supporting multiple Nymi Enabled Applications and Nymi bands, usable in any language supporting a \textbf{C FFI}}
-        \item {Interfaced with C security library to encrypt communications between NEAs and Nymi bands}
+        \item {Refactored processing of incoming messages using \textbf{Serde}}
         \item {Optimized \textbf{Phoenix} server communications to minimize latency in \textbf{Citrix} environments}
         \item {Consumed \textbf{Windows APIs} to support applications running locally with the Nymi Runtime on Citrix servers}
         \item {Key Technologies: \textbf{Rust, Elixir + Phoenix, Windows APIs}}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Full Stack Developer} % Job title
-    {\#paid Inc} % Organization
-    {Toronto, ON} % Location
-    {July - August 2017, January - April 2018} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Architected parallelized job pipeline using Elixir's \textbf{GenStage} library for worker backpressure and rate limiting}
-        \item {Processed \textbf{30,000+} users/day, allowing for better campaign targeting and the discovery of new influencers to onboard}
-        \item {Configured \textbf{AWS EC2} instances for staging and production use, and set up \textbf{Squid} proxy servers for request caching}
-        \item {Led project updating multi-step form for clients to create campaign proposals, increasing amount of data collected from RFPs}
-        \item {Key Technologies: \textbf{Ruby on Rails, Elixir, AWS EC2 \& IAM, Postgres, Mongo}}
       \end{cvitems}
     }
 
